@@ -1,9 +1,17 @@
 // globals.scss
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  background: #fff;
+  background: $white;
   font-family: $font-sans-serif;
-  color: #333;
+  color: $gray-dark;
+  margin: 1em; // delete when done with modules page
 }
 
 .browsehappy {
@@ -11,4 +19,8 @@ body {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+img {
+  max-width: 100%;
 }

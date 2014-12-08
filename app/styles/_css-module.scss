@@ -1,13 +1,21 @@
 // css-module.scss
 
+h1 {
+  font-family: Helvetica;
+  color: black;
+}
+
 .css-module {
   margin-bottom: 6em;
   &> h2 {
     padding: .5em .25em;
     font-family: monospace;
-    background-color: #eee;
+    color: $gray-dark;
+    background-color: $gray-lightest;
   }
-  &> img {
-    max-width: 100%;
+  .sample-image {
+    zoom: 0.5;
+    display: block;
+    border: 1px solid $gray-lightest;
   }
 }

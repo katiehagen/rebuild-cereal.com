@@ -1,1 +1,36 @@
-// main-nav.scss
+// _main-nav.scss
+
+.main-nav {
+  font-size: small;
+  letter-spacing: 0.15em;
+
+  ul {
+    @include clearfix;
+    border: 1px solid red;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+    margin-right: 8em;
+    font-family: $font-serif;
+    &:hover {
+      background: $gray-light;
+      color: $white;
+    }
+  }
+  a {
+    color: $gray-dark;
+    text-decoration: none;
+    padding: 0.5em 0.25em;
+    display: inline-block;
+  }
+}
+
+.cereal-logo {
+  max-width: 50%;
+  margin: 0;
+  padding: 0;
+}
