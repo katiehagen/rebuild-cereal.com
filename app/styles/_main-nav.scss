@@ -7,30 +7,27 @@
   ul {
     @include clearfix;
     border: 1px solid red;
-    margin: 0;
     list-style-type: none;
+    margin: 0;
     padding: 0;
   }
 
   li {
+    border: 1px solid black;
     float: left;
-    margin-right: 8em;
+    margin-left: .5em;
+    margin-right: 3.4em;
     font-family: $font-serif;
-    &:hover {
-      background: $gray-light;
-      color: $white;
     }
   }
   a {
+    border: 1px solid yellow;
     color: $gray-dark;
     text-decoration: none;
-    padding: 0.5em 0.25em;
+    padding: 0.5em 1.5em;
     display: inline-block;
+    &:hover {
+      background: $gray-light;
+      color: $white;
   }
-}
-
-.cereal-logo {
-  max-width: 50%;
-  margin: 0;
-  padding: 0;
 }
