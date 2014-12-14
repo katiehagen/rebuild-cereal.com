@@ -1,1 +1,15 @@
 // product-block.scss
+
+.product-block {
+
+  img {
+    max-width: 39%;
+  }
+
+  a {
+    &:hover {
+      background: $gray-light;
+      
+    }
+  }
+}

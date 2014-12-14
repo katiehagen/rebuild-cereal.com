@@ -1,1 +1,41 @@
 // travel-guides.scss
+
+.travel-guides {
+  background: $gray-lightest;
+  margin: 1em 0 3em 0;
+
+  img {
+    max-width: 32%;
+    position: relative;
+    left: 200px;
+    margin: 2em;
+    display: inline-block;
+    border: 1px solid red; //delete
+  }
+
+  p, a {
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: .7em;
+    letter-spacing: .17em;
+    margin: 0;
+  }
+
+  a {
+    font-size: .9em;
+    letter-spacing: .05em;
+    display: inline-block;
+    text-decoration: none;
+    color: $gray-dark;
+    padding: 1em 4em;
+    margin: 2em;
+    border: 1px solid $gray-dark;
+    &:hover {
+      background: $gray-light;
+      color: $white;
+      border: none;
+    }
+  }
+}

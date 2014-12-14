@@ -1,1 +1,46 @@
 // current-issue.scss
+
+.current-issue {
+  background: $gray-lightest;
+  margin-top: 1em; //delete
+
+  img {
+    max-width: 45%;
+    position: relative;
+    left: 360px;
+    margin: 2em;
+    display: inline-block;
+  }
+
+  h2 {
+    font-family: $font-serif;
+    font-weight: normal;
+  }
+
+  p, a {
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: .7em;
+    letter-spacing: .17em;
+    line-height: 2em;
+    margin: 0;
+  }
+
+  a {
+    font-size: .9em;
+    letter-spacing: .05em;
+    display: inline-block;
+    text-decoration: none;
+    color: $gray-dark;
+    padding: 1em 3em;
+    margin: 2em;
+    border: 1px solid $gray-dark;
+    &:hover {
+      background: $gray-light;
+      color: $white;
+      border: none;
+    }
+  }
+}

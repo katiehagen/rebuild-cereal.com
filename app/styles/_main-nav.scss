@@ -6,22 +6,22 @@
 
   ul {
     @include clearfix;
-    border: 1px solid red;
+    border: 1px solid red; //remove
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
 
   li {
-    border: 1px solid black;
+    border: 1px solid black; //remove
     float: left;
     margin-left: .5em;
     margin-right: 3.4em;
     font-family: $font-serif;
     }
-  }
+
   a {
-    border: 1px solid yellow;
+    border: 1px solid yellow; //remove
     color: $gray-dark;
     text-decoration: none;
     padding: 0.5em 1.5em;
@@ -29,5 +29,6 @@
     &:hover {
       background: $gray-light;
       color: $white;
+    }
   }
 }
