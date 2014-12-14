@@ -7,10 +7,9 @@
   img {
     max-width: 32%;
     position: relative;
-    left: 200px;
-    margin: 2em;
+    left: 16em;
+    margin: 4em 2em;
     display: inline-block;
-    border: 1px solid red; //delete
   }
 
   p, a {
@@ -38,4 +37,8 @@
       border: none;
     }
   }
+
+.guided-logo {
+  zoom: 0.5;
+}
 }
