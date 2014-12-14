@@ -2,35 +2,45 @@
 
 .page-footer {
   background: $gray-light;
-  height: 9em;
+  height: 12em;
   color: $white;
-  font-family: $font-serif;
+  font-family: 'IM Fell French Canon', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: .75em;
+  letter-spacing: .15em;
 
   ul {
-    border: 1px solid red; // delete
     @include clearfix;
     list-style-type: none;
     margin: 0;
-    padding: 3em 12em;
+    padding: 4em 0 4em 15em;
   }
 
   li {
-    border: 1px solid black; // delete
     float: left;
-    margin-right: 1em;
     display: inline-block;
+    margin: 0;
+    padding: 0 1em;
   }
 
   a {
-    border: 1px solid yellow; // delete
     text-decoration: none;
     color: $white;
-    font-size: .9em;
-    letter-spacing: .05em;
     padding: 0.5em 1.5em;
     margin: 2em;
     &:hover {
       color: $gray-dark;
     }
   }
+
+.sans-serif {
+  font-family: $font-sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+  padding: 0 1.6em 0 1.6em;
+}
+
 }

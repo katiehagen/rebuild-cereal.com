@@ -1,15 +1,35 @@
 // product-block.scss
+.container {
+  @include clearfix;
+  margin: 3em 10em 3em 10em;
+}
 
 .product-block {
+  width: 50%;
+  padding: 0 .3em;
+  margin: 0;
+  float: left;
+  color: $white;
+  position: relative;
 
   img {
-    max-width: 39%;
+    zoom: .5;
   }
 
-  a {
+  p {
+    font-family: 'IM Fell French Canon', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    top: 0;
+    padding: 10.5em 10.6em;
+    margin: 0;
+    position: absolute;
+    background: $gray-dark;
+    opacity: 0;
     &:hover {
-      background: $gray-light;
-      
+      opacity: .6;
     }
   }
 }

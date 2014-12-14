@@ -13,8 +13,11 @@
   }
 
   h2 {
-    font-family: $font-serif;
-    font-weight: normal;
+    font-family: 'IM Fell French Canon', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.3em;
+    letter-spacing: .18em;
   }
 
   p, a {

@@ -1,6 +1,8 @@
 <!doctype html>
 <html class="no-js">
 <head>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
   <title>Modules for rebuild-cereal.com</title>
   <meta name="description" content="">
@@ -20,9 +22,6 @@
   <!-- build:js scripts/vendor/modernizr.js -->
   <script src="bower_components/modernizr/modernizr.js"></script>
   <!-- endbuild -->
-
-  <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <!--[if lt IE 10]>
@@ -154,10 +153,17 @@
     <h2>.product-block</h2>
     <img class="sample-image" src="images/modules/product-block.png" alt="Product Block">
     <!-- .product-block -->
+    <div class="container">
       <article class="product-block">
         <a href="#"><img src="images/honest-candle-homepage.jpg" alt="Honest x Cereal Candle"></a>
         <p>Honest x Cereal Candle</p>
       </article>
+
+      <article class="product-block">
+        <a href="#"><img src="images/worldmap_update3.jpg" alt="Cereal World Map"></a>
+        <p>Cereal World Map</p>
+      </article>
+    </div>
     <!-- end .product-block -->
   </div>
 
@@ -171,10 +177,10 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Stockists</a></li>
           <li><a href="#">Film</a></li>
-          <li>&copy; Cereal</li>
+          <li><span class="sans-serif">&copy; Cereal</span></li>
           <li><a href="#">Stay in touch</a></li>
           <li><form>
-            <input type="text" placeholder="Enter Email" name="Enter Email">
+            <input type="text" name="Enter Email" placeholder="Enter Email"></input>
           </form>
         </li>
         </ul>
