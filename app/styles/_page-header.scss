@@ -5,7 +5,18 @@
   width: 100%;
   position: relative;
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
+  margin-right: auto;
+  margin-left: auto;
+
+  .cereal-logo {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 41em;
+    margin: 0;
+    padding: 0;
+  }
 
   .main-nav {
     float: left;
@@ -14,7 +25,7 @@
 
   .social-media {
     float: right;
-    margin-right: 15em;
+    margin-right: 11em;
   }
 
 }

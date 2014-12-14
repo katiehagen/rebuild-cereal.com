@@ -2,35 +2,36 @@
 
 .travel-guides {
   background: $gray-lightest;
-  margin: 1em 0 3em 0;
   width: 100%;
-
-  img {
-    max-width: 32%;
-    position: relative;
-    left: 16em;
-    margin: 4em 2em;
-    display: inline-block;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5em;
+  padding: 1em 15em 3em 15em;
+  @include clearfix;
 
   p, a {
     text-transform: uppercase;
   }
 
   p {
+    display: inline-block;
     font-size: .7em;
     letter-spacing: .17em;
-    margin: 0;
+    margin-left: 1em;
+    width: 25em;
+    height: 1.5em;
+    padding: 0;
+    text-align: center;
   }
 
   a {
+    display: inline-block;
     font-size: .9em;
     letter-spacing: .05em;
-    display: inline-block;
     text-decoration: none;
     color: $gray-dark;
     padding: 1em 4em;
-    margin: 2em;
+    margin: 2em 3.5em;
     border: 1px solid $gray-dark;
     &:hover {
       background: $gray-light;
@@ -38,8 +39,16 @@
       border: none;
     }
   }
+}
 
-.guided-logo {
-  zoom: 0.5;
-}
-}
+  .guided-map {
+    width: 28em;
+    margin: 3em;
+    float: left;
+  }
+
+  .guided-logo {
+    zoom: 0.5;
+    display: inline-block;
+    margin: 11em 0 2em 10em;
+  }
